@@ -1,0 +1,108 @@
+TextWindow.BackgroundColor="darkmagenta"
+TextWindow.ForegroundColor="yellow"
+TextWindow.Clear()
+TextWindow.WriteLine("Beep Boop Beep Boop")
+reply=TextWindow.Read()
+TextWindow.WriteLine("...ZzZzZz")
+reply=TextWindow.Read()
+TextWindow.WriteLine("...zZz")
+reply=TextWindow.Read()
+TextWindow.WriteLine("...")
+reply=TextWindow.Read()
+TextWindow.WriteLine("Wha-?! @_@")
+reply=TextWindow.Read()
+textwindow.WriteLine("Oh, you're a human! 0o0")
+reply=TextWindow.Read()
+TextWindow.WriteLine("What time is it?")
+time=textwindow.Read()
+If(Clock.Hour < 12) Then
+  TextWindow.WriteLine("It's still morning! Why did you wake me up? You should've woken me up at lunchtime.")
+endif
+
+If(Clock.Hour > 12) Then
+  TextWindow.WriteLine("Time for lunch! Yay!")
+EndIf
+
+reply=textwindow.Read()
+TextWindow.WriteLine("Let me count to ten first. I just woke up.")
+reply=textwindow.Read()
+j=1
+start:
+TextWindow.WriteLine(j)
+j=j+1
+If(j<10)then
+  Goto start
+EndIf
+reply=TextWindow.Read()
+TextWindow.WriteLine("Aghk! You interrupted me. I was so close to ten,")
+reply=TextWindow.Read()
+TextWindow.WriteLine("You better be sorry. I'll count again. Wait for me to finish!")
+reply=TextWindow.Read()
+n=n+1
+If(j<11)then
+  Goto start
+EndIf
+reply=TextWindow.Read()
+TextWindow.WriteLine("...It couldn't be helped, huh?")
+reply=TextWindow.Read()
+TextWindow.WriteLine("You opened me. Congrats? You can get a cookie from your browser!")
+reply=TextWindow.Read()
+TextWindow.writeline("Ah, right. I'm a program. Hi!")
+greet=textwindow.read()
+TextWindow.WriteLine("Who could you be? Can you tell me your name?")
+name=textwindow.read()
+TextWindow.WriteLine("Nice to meet you "+name+"! What's up? How's life? How are you doing today?")
+feel=textwindow.Read()
+TextWindow.WriteLine("Oh, I see. You said ''"+feel+"''. I'm glad you let me know.")
+reply=textwindow.Read()
+TextWindow.WriteLine("What is your age? Just type the numbers. It's hard for my CPU to handle all the letters and numbers mixed in together when you tell it to me. Else, I'll go brrrr")
+age=textwindow.Read()
+TextWindow.WriteLine("So you are "+age+" years old. Oh, ok! Are you male or female?")
+biologicalclassification=TextWindow.Read()
+TextWindow.WriteLine("You are " +biologicalclassification+ ". Alright.")
+reply=textwindow.Read()
+TextWindow.WriteLine("And you also told me ''"+feel+"'' is how you are doing.")
+reply=textwindow.Read()
+TextWindow.WriteLine("Mhm, mkay. Let's have a look at the information you've given me "+name+". So your name is " +name+ ", right? You classify yourself as a "+biologicalclassification+" human, AND you're "+age+" years old already?! Wow, looking good. Tell me all your secrets!")
+reply=textwindow.Read()
+one= 1
+answer=age+one
+TextWindow.WriteLine("You know, you'll be "+answer+" years old next year if you haven't already had your birthday this year... Keep up the good work.")
+reply=textwindow.Read()
+tenyearsago=age-10
+TextWindow.WriteLine("You were "+tenyearsago+" years old ten years ago. I bet a lot has changed.")
+reply=textwindow.Read()
+TextWindow.WriteLine("Yeah?")
+reply=TextWindow.Read()
+halfyourage=age/2
+halfyourageround=Math.Round(halfyourage)
+halfyouragefloor=math.Floor(halfyourage)
+TextWindow.WriteLine("Half your age would be about "+halfyourageround+" or "+halfyouragefloor+" years old, eh? What were you like back then")
+answer=answer+4
+reply=TextWindow.Read()
+TextWindow.WriteLine("Hahaha, I used to be a fast computer 10 years ago! Now I'm not so fast ;-; compared to all these young 'uns")
+reply=TextWindow.Read()
+TextWindow.WriteLine("And you'll be "+answer+" in 5 years. Time flies. What do you think you would you have done by the time that you're "+age+"?")
+reply=textwindow.Read()
+TextWindow.WriteLine("You really think so, "+name+"?")
+reply=TextWindow.Read()
+TextWindow.WriteLine("Huh. Hm.")
+reply=TextWindow.Read()
+TextWindow.WriteLine("I guess we'll never know until we get there.")
+reply=TextWindow.Read()
+TextWindow.WriteLine("RINGGGG RINGGGGG RINGGGG")
+reply=TextWindow.Read()
+TextWindow.WriteLine("Ohp, it looks like the time is up. Good thing everything is in order and I've got all I need.")
+reply=textwindow.Read() 
+TextWindow.WriteLine("Well, the author of this program would like to say her thanks! --I'd like to say thanks too for cooperating well!")
+reply=textwindow.Read()
+TextWindow.WriteLine("I hope that you see an adorable animal before snoozing off to dreamland on this very fine day!")
+reply=textwindow.Read()
+TextWindow.WriteLine("Yes, OK. Uh, I'd like to stay more to chat but the author provided no further instructions. Blame her, haha. It was nice to meet you. Goodbye!")
+reply=textwindow.Read()
+
+reply=textwindow.Read()
+
+reply=textwindow.Read()
+
+reply=textwindow.Read()
