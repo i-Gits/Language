@@ -15,7 +15,7 @@ NetBeans - Wikipedia
 ["Hello World!" for the NetBeans IDE](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/netbeans.html)
 
 <details>
-  <summary> To do list </summary>
+  <summary> GOALS </summary>
 
 #  Creating Your First Application
 <sub><sub>*copied and pasted from the above linked site</sub></sub>
@@ -68,7 +68,7 @@ The IDE invokes the Java application launcher tool (java), which uses the Java v
 </details>
 
 <details>
-  <summary> Steps </summary>
+  <summary> My attempt - Progress </summary>
 
   ![image](https://github.com/i-Gits/Language/assets/157287055/d12de662-21e8-4476-bfb3-702901304ecf)
 
