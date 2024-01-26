@@ -116,3 +116,18 @@ Failed to execute.
 
 
 </details>
+
+
+<details><summary>My attempt - Progress</summary>
+
+![image](https://github.com/i-Gits/Language/assets/157287055/51fac545-114d-4a74-81f3-abb26f1203dd)
+
+
+![image](https://github.com/i-Gits/Language/assets/157287055/b15c7d2c-e06d-4fac-b1ea-5d9d253e929a)
+
+![image](https://github.com/i-Gits/Language/assets/157287055/4e473266-b2ed-4466-82ef-a472c87a4d7a)
+
+
+
+
+</details>
