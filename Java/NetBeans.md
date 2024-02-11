@@ -140,5 +140,123 @@ To compile is to run
 
 > where is the .class file?
 
+</details>
+
+
+
+
+
+<details>
+    <summary> Netbeans issue : Posted </summary>
+
+< Could not edit post; need more karma to 
+1. Post images (20)
+2. Include more than 8 links (10)
+3
+
+        This is my Code:
+
+
+    package hello.learningjava;
+ 
+    public class NewClassTEST {
+    
+        public static String aMadeUpString() {
+        
+            return ("Holy moly cow, 你好 よくできました！");
+        }
+    }
+
+
+[Image of the code](https://github.com/i-Gits/Language/assets/157287055/552cc3fb-75f3-48e8-94fd-75b5ca64c9ea)
+
+In main:
+
+    NewClassTEST b = new NewClassTEST();
+    String TEST = b.aMadeUpString();
+    System.out.println(TEST);`
+
+Output:
+`Holy moly cow, ?? ????????`
+
+[What the output window shows](https://github.com/i-Gits/Language/assets/157287055/b2fa5055-4b2e-4757-bcc6-bed93997aa56)
+
+Expected Output:
+Print
+`Holy moly cow, 你好 よくできました！`
+in the Output Window (Clearly displaying CJK)
+
+< --- attempts --- >
+
+Tried following along some of the [Stackoverflow answers in here - Netbeans 9 - Print Unicode Characters](https://stackoverflow.com/questions/53257763/netbeans-9-print-unicode-characters). 
+Also tried looking into this user's question -
+[Stackoverflow : NetBeans 15 Hindi Character Display Issue](https://stackoverflow.com/questions/73950077/netbeans-15-hindi-character-display-issue)
+
+Note: I opened an issue for [myself in Github](https://github.com/i-Gits/Language/issues/2) and what is written here is what I wrote there as well.
+
+
+Tried adding 
+
+`-J-Dfile.encoding=UTF-8` & 
+`-J-Dawt.useSystemAAFontSettings=On` 
+
+at the end of 
+
+> netbeans.conf 
+located in ` C:\Program Files\NetBeans-20\netbeans\etc `
+
+[image: C:\Program Files\NetBeans-20\netbeans\etc](https://github.com/i-Gits/Language/assets/157287055/5860a3cf-9e0e-417c-b7dd-7d2f0e018bd0)
+ 
+[image: Opened .conf in Notepad++](https://github.com/i-Gits/Language/assets/157287055/89cdacd6-d1ea-4dc4-8f08-de4070c4228b)
+
+[image: Added at the end of the code line](https://github.com/i-Gits/Language/assets/157287055/1ce5afba-d312-4f01-8007-2dfc4356a546)
+
+[Source](https://stackoverflow.com/questions/55112673/newly-installed-fonts-do-not-appear-in-netbeans)
+
+
+I couldn't follow along every point in the first Stackoverflow link but here's what I have been able to try:
+
+Added code and results:
+[image: Netbeans IDE](https://github.com/i-Gits/Language/assets/157287055/cb1a3f58-cf53-4747-8c89-6e0634ae1586)
+
+(Netbeans' hints)
+Imported the following:
+[image: import](https://github.com/i-Gits/Language/assets/157287055/d6f509c1-2eab-4ee7-9d90-027949c0694a)
+
+
+Result: 
+[image: Result in Output Window](https://github.com/i-Gits/Language/assets/157287055/cef402cf-4c6d-4b0e-9f1a-62e8bc2b82ee)
+
+No longer 
+    `??????` 
+but now it is:
+    ` ä½ å¥½ ã‚ˆã��ã�§ã��ã�¾ã�—ã�Ÿï¼�`
+
+<--- . --->
+
+It's been hours and I can't seem to find a resolution.
+
+I made sure to **restart** Netbeans with every edit to the settings, `tools>options>fonts...` or config. 
+I tried finding other questions of similar nature not listed here but none of them have worked so far. They're also from previous versions of the IDE. I am using **Netbeans 20.**
+
+I tried *installing* various fonts and *switching* fonts. (Although what I downloaded were `.otf`, not `.ttf`)
+Tried *importing* new font .zip files (Noto JP, Noto Emoji)
+ 
+Tried Monospace, Courier, Noto JP, Noto Emoji, Arial in **both** the `MISCELLANEOUS > OUTPUT > FONT` and `TOOLS>OPTIONS>FONTS & COLORS`.
+Note: `Courier` displays CJK text in the editing window, but not in the Output window.
+
+I have restarted my PC several times.
+
+I am new to programming so some of the possible solutions like 
+> 2. From the Projects panel set {project} > Properties > Sources > Encoding to UTF-8.
+
+from user skomisa, I could not execute. I'm not sure how to go about doing this. I tried looking online on how to find properties in the projects panel set, could I also be guided on how to do this?
+
+If you know any other way to solve this, please let me know. 
+Thank you!
+
+
+<!--- 2024 02 11 --->
+
 
 </details>
