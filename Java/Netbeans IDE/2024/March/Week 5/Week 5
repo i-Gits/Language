@@ -1,0 +1,12 @@
+class EmployeePortal{
+    public static void main (String args[]){
+        String FirstName = "Bianca Sophia";
+        String LastName = "Aquino" ;
+        String BirthMonth = "August" ;
+        int Birthdate = 4;
+        int BirthYear = 1989;
+        int EmployeeNumber = 3;
+        System.out.println(Em);
+    }
+            
+}
