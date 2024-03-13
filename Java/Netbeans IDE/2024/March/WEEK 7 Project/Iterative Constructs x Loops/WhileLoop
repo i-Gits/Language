@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package IterativeConstructsXloops;
+
+/**
+ *
+ * @author arc
+ */
+public class whileloop {
+    public static void whileloopmethod(){
+        //aka entry control loop, continues on and on and on until condition returns false it jumps to the next statement
+        
+        int i = 1;
+        while (i <= 3){
+            System.out.println("Iteration Number: "+i);
+        }
+        
+    }
+    
+}
